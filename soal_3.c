@@ -3,7 +3,7 @@
 #include <math.h>
 #include <stdlib.h>
 
-int primeNumber(int n){
+int prime_number(int n){
     if(n < 1){
         return 0;
     }
@@ -22,7 +22,7 @@ int main() {
     scanf("%d", &angka);
     
 
-    if(primeNumber(angka)==0){
+    if(prime_number(angka)==0){
         printf("BUKAN");
     } else {
         printf("PRIMA");
