@@ -3,11 +3,11 @@
 
 
 void compare_strings(const char* s1, const char* s2) {
-    int len1 = strlen(s1);
-    int len2 = strlen(s2);
+    int lenght1 = strlen(s1);
+    int lenght2 = strlen(s2);
 
     
-    if (len1 != len2) {
+    if (lenght1 != lenght2) {
         printf("BERBEDA\n");
     } else {
         int result = strcmp(s1, s2);
